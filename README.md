@@ -1,48 +1,47 @@
-# Dog_Segmentation
-
+# Dog Segmentation
 
 ![License](https://img.shields.io/github/license/AlvaroPorcel/Dog_Segmentation)
 ![Issues](https://img.shields.io/github/issues/AlvaroPorcel/Dog_Segmentation)
 ![Stars](https://img.shields.io/github/stars/AlvaroPorcel/Dog_Segmentation)
 ![Forks](https://img.shields.io/github/forks/AlvaroPorcel/Dog_Segmentation)
 
-## Descripción
+## Description
 
-El proyecto **Dog Segmentation** se centra en la segmentación de imágenes de perros mediante técnicas avanzadas de aprendizaje profundo. Utilizando una arquitectura de red neuronal convolucional, el modelo es capaz de identificar y segmentar con precisión las áreas de las imágenes donde se encuentran los perros.
+The **Dog Segmentation** project focuses on segmenting images of dogs using advanced deep learning techniques. By utilizing a convolutional neural network architecture, the model can accurately identify and segment areas of images where dogs are present.
 
-## Tabla de Contenidos
+## Table of Contents
 
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Instalación
+## Installation
 
-Sigue estos pasos para configurar el entorno y ejecutar el proyecto localmente.
+Follow these steps to set up the environment and run the project locally.
 
-1. Clonar el repositorio:
+1. Clone the repository:
     ```sh
     git clone https://github.com/AlvaroPorcel/Dog_Segmentation.git
     cd Dog_Segmentation
     ```
 
-2. Crear un entorno virtual:
+2. Create a virtual environment:
     ```sh
     python -m venv env
-    source env/bin/activate  # En Windows usa `env\Scripts\activate`
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
     ```
 
-3. Instalar las dependencias:
+3. Install dependencies:
     ```sh
     pip install -r requirements.txt
     ```
 
-## Uso
+## Usage
 
-Para ejecutar el modelo de segmentación, usa el siguiente comando:
+To run the segmentation model, use the following command:
 
 ```sh
-python segment.py --input imagen.jpg --output resultado.png
+python scripts/segment.py --input image.jpg --output result.png
